@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "blossomeq:item/cherry_blossom"
+  }
+}
