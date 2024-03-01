@@ -369,6 +369,50 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> SANDSTONE_BEACH_BLOCK = registerBlock("sandstone_beach_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+    public static final RegistryObject<Block> SAND_BEACH_BLOCK = registerBlock("sand_beach_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+
+
+
+    public static final RegistryObject<Block> SANDSTONE_AQUA_BLOCK = registerBlock("sandstone_aqua_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+    public static final RegistryObject<Block> SAND_AQUA_BLOCK = registerBlock("sand_aqua_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+
+
+
+    public static final RegistryObject<Block> SANDSTONE_OCEAN_BLOCK = registerBlock("sandstone_ocean_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+    public static final RegistryObject<Block> SAND_OCEAN_BLOCK = registerBlock("sand_ocean_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+
+
+    public static final RegistryObject<Block> SANDSTONE_LILAC_BLOCK = registerBlock("sandstone_lilac_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+    public static final RegistryObject<Block> SAND_LILAC_BLOCK = registerBlock("sand_lilac_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+
+
+    public static final RegistryObject<Block> SANDSTONE_GRAYGE_BLOCK = registerBlock("sandstone_grayge_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+    public static final RegistryObject<Block> SAND_GRAYGE_BLOCK = registerBlock("sand_grayge_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND).strength
+                    (8f)), ModCreativeModeTab.BLOSSOM_EQ_TAB_2);
+
+
+
+
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
                 registerBlockItem(name, toReturn, tab);
