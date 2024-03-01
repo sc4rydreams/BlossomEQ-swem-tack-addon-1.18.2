@@ -122,8 +122,23 @@
   "block.blossomeq.sandstone_terracotta_block": "Sandstone Terracotta",
   "block.blossomeq.sand_terracotta_block": "Sand Terracotta",
 
+  "block.blossomeq.sandstone_beach_block": "Sandstone Beach",
+  "block.blossomeq.sand_beach_block": "Sand Beach",
+
+  "block.blossomeq.sandstone_aqua_block": "Sandstone Aqua",
+  "block.blossomeq.sand_aqua_block": "Sand Aqua",
+
+  "block.blossomeq.sandstone_ocean_block": "Sandstone Ocean",
+  "block.blossomeq.sand_ocean_block": "Sand Ocean",
+
   "block.blossomeq.sandstone_walnut_block": "Sandstone Walnut",
   "block.blossomeq.sand_walnut_block": "Sand Walnut",
+
+  "block.blossomeq.sandstone_lilac_block": "Sandstone Lilac",
+  "block.blossomeq.sand_lilac_block": "Sand Lilac",
+
+  "block.blossomeq.sandstone_grayge_block": "Sandstone Grayge",
+  "block.blossomeq.sand_grayge_block": "Sand Grayge",
 
 
   "itemGroup.blossom_eq_tab": "BlossomEQ tack ",
