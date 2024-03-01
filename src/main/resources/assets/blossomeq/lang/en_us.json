@@ -1,60 +1,133 @@
 {
   "item.blossomeq.cherry_blossom": "Cherry Blossom",
+  "item.blossomeq.cherry_blossom_2": "Cherry Blossom Dark",
 
   "block.blossomeq.sand_pale_block": "Sand Pale",
-
   "block.blossomeq.sandstone_pale_block": "Sandstone Pale",
 
   "block.blossomeq.sandstone_ash_block": "Sandstone Ash",
-
   "block.blossomeq.sand_ash_block": "Sand Ash",
 
   "block.blossomeq.sandstone_coffee_block": "Sandstone Coffee",
-
   "block.blossomeq.sand_coffee_block": "Sand Coffee",
 
   "block.blossomeq.sandstone_toffee_block": "Sandstone Toffee",
-
   "block.blossomeq.sand_toffee_block": "Sand Toffee",
 
   "block.blossomeq.sandstone_tan_block": "Sandstone Tan",
-
   "block.blossomeq.sand_tan_block": "Sand Tan",
 
   "block.blossomeq.sandstone_taupe_block": "Sandstone Taupe",
-
   "block.blossomeq.sand_taupe_block": "Sand Taupe",
 
   "block.blossomeq.sandstone_wenge_block": "Sandstone Wenge",
-
   "block.blossomeq.sand_wenge_block": "Sand Wenge",
 
   "block.blossomeq.sandstone_beige_block": "Sandstone Beige",
-
   "block.blossomeq.sand_beige_block": "Sand Beige",
 
-  "block.blossomeq.sandstone_black_block": "Sandstone Black",
+  "block.blossomeq.sandstone_biscuit_block": "Sandstone Biscuit",
+  "block.blossomeq.sand_biscuit_block": "Sand Biscuit",
 
+  "block.blossomeq.sandstone_black_block": "Sandstone Black",
   "block.blossomeq.sand_black_block": "Sand Black",
 
   "block.blossomeq.sandstone_gray_block": "Sandstone Gray",
-
   "block.blossomeq.sand_gray_block": "Sand Gray",
 
   "block.blossomeq.sandstone_mocha_block": "Sandstone Mocha",
-
   "block.blossomeq.sand_mocha_block": "Sand Mocha",
 
   "block.blossomeq.sandstone_orange_block": "Sandstone Orange",
-
   "block.blossomeq.sand_orange_block": "Sand Orange",
 
   "block.blossomeq.sandstone_umber_block": "Sandstone Umber",
-
   "block.blossomeq.sand_umber_block": "Sand Umber",
 
   "block.blossomeq.sandstone_chestnut_block": "Sandstone Chestnut",
+  "block.blossomeq.sand_chestnut_block": "Sand Chestnut",
 
-  "block.blossomeq.sand_chestnut_block": "Sand Chestnut"
+  "block.blossomeq.sandstone_brown_block": "Sandstone Brown",
+  "block.blossomeq.sand_brown_block": "Sand Brown",
+
+  "block.blossomeq.sandstone_buff_block": "Sandstone Buff",
+  "block.blossomeq.sand_buff_block": "Sand Buff",
+
+  "block.blossomeq.sandstone_cacao_block": "Sandstone Cacao",
+  "block.blossomeq.sand_cacao_block": "Sand Cacao",
+
+  "block.blossomeq.sandstone_caramel_block": "Sandstone Caramel",
+  "block.blossomeq.sand_caramel_block": "Sand Caramel",
+
+  "block.blossomeq.sandstone_cedar_block": "Sandstone Cedar",
+  "block.blossomeq.sand_cedar_block": "Sand Cedar",
+
+  "block.blossomeq.sandstone_cherry_block": "Sandstone Cherry",
+  "block.blossomeq.sand_cherry_block": "Sand Cherry",
+
+  "block.blossomeq.sandstone_clay_block": "Sandstone Clay",
+  "block.blossomeq.sand_clay_block": "Sand Clay",
+
+  "block.blossomeq.sandstone_copper_block": "Sandstone Copper",
+  "block.blossomeq.sand_copper_block": "Sand Copper",
+
+  "block.blossomeq.sandstone_cray_block": "Sandstone Cray",
+  "block.blossomeq.sand_cray_block": "Sand Cray",
+
+  "block.blossomeq.sandstone_ivory_block": "Sandstone Ivory",
+  "block.blossomeq.sand_ivory_block": "Sand Ivory",
+
+  "block.blossomeq.sandstone_latte_block": "Sandstone Latte",
+  "block.blossomeq.sand_latte_block": "Sand Latte",
+
+  "block.blossomeq.sandstone_oat_block": "Sandstone Oat",
+  "block.blossomeq.sand_oat_block": "Sand Oat",
+
+  "block.blossomeq.sandstone_peanut_block": "Sandstone Peanut",
+  "block.blossomeq.sand_peanut_block": "Sand Peanut",
+
+  "block.blossomeq.sandstone_wood_block": "Sandstone Wood",
+  "block.blossomeq.sand_wood_block": "Sand Wood",
+
+  "block.blossomeq.sandstone_penny_block": "Sandstone Penny",
+  "block.blossomeq.sand_penny_block": "Sand Penny",
+
+  "block.blossomeq.sandstone_pine_block": "Sandstone Pine",
+  "block.blossomeq.sand_pine_block": "Sand Pine",
+
+  "block.blossomeq.sandstone_russel_block": "Sandstone Russel",
+  "block.blossomeq.sand_russel_block": "Sand Russel",
+
+  "block.blossomeq.sandstone_russet_block": "Sandstone Russet",
+  "block.blossomeq.sand_russet_block": "Sand Russet",
+
+  "block.blossomeq.sandstone_saddle_block": "Sandstone Saddle",
+  "block.blossomeq.sand_saddle_block": "Sand Saddle",
+
+  "block.blossomeq.sandstone_sepia_block": "Sandstone Sepia",
+  "block.blossomeq.sand_sepia_block": "Sand Sepia",
+
+  "block.blossomeq.sandstone_sugar_block": "Sandstone Sugar",
+  "block.blossomeq.sand_sugar_block": "Sand Sugar",
+
+  "block.blossomeq.sandstone_syrup_block": "Sandstone Syrup",
+  "block.blossomeq.sand_syrup_block": "Sand Syrup",
+
+  "block.blossomeq.sandstone_tanny_block": "Sandstone Tanny",
+  "block.blossomeq.sand_tanny_block": "Sand Tanny",
+
+  "block.blossomeq.sandstone_tawny_block": "Sandstone Tawny",
+  "block.blossomeq.sand_tawny_block": "Sand Tawny",
+
+  "block.blossomeq.sandstone_terracotta_block": "Sandstone Terracotta",
+  "block.blossomeq.sand_terracotta_block": "Sand Terracotta",
+
+  "block.blossomeq.sandstone_walnut_block": "Sandstone Walnut",
+  "block.blossomeq.sand_walnut_block": "Sand Walnut",
+
+
+  "itemGroup.blossom_eq_tab": "BlossomEQ tack ",
+
+  "itemGroup.blossom_eq_tab2": "BlossomEQ blocks"
 
 }

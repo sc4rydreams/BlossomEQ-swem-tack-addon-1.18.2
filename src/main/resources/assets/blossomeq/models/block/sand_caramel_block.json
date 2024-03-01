@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blossomeq:block/sand_caramel_block"
+  }
+}

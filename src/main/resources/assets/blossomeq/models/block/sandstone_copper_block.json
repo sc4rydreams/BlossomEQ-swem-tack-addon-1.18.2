@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blossomeq:block/sandstone_copper_block"
+  }
+}
