@@ -35,7 +35,7 @@ public class blossomeq {
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("HELLO FROM BLOSSOMEQ"); // This code is what logs when the game starts up in the log
+        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); // Its completely optional
     }
 }
