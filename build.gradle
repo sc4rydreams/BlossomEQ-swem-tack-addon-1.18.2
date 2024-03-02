@@ -2,12 +2,17 @@ buildscript {
     repositories {
         // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
         maven { url = 'https://maven.minecraftforge.net' }
-        mavenCentral()
         maven { url = 'https://maven.parchmentmc.org' }
+        maven {
+            name = 'Sponge Snapshots'
+            url = 'https://repo.spongepowered.org/repository/maven-public/'
+        }
+        mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
         classpath 'org.parchmentmc:librarian:1.+'
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 
 }
@@ -18,10 +23,11 @@ plugins {
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin:  'org.parchmentmc.librarian.forgegradle'
+apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'eclipse'
 
-
-version = '40.2.17-1.18.2'
+//Updated your version number to not be the Forge version number. Temp set it as a BETA and 0.0.3 - tre
+version = '0.0.3-1.18.2--BETA'
 group = 'blossomeq' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'blossomeq'
 
@@ -128,7 +134,8 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'blossomeq', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            // removed '-all' from the arguments so we can run data generation without calling the SWEM files during model generation - tre
+            args '--mod', 'blossomeq', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 blossomeq {
@@ -150,6 +157,28 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+    maven {
+        name = "cursemaven" // get the curse forge location
+        url = "https://cursemaven.com/"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    maven {
+        url = "https://maven.kosmx.dev/" // playeranimator location
+    }
+    maven {
+        // location of the maven that hosts JEI files
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+    mavenCentral()
+
 }
 
 dependencies {
@@ -157,6 +186,11 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.17'
+
+   // Added in the SWEM mods for integration - tre
+    implementation  fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:0.4.0+1.18") // playeranimator
+    implementation  fg.deobf("curse.maven:geckolib-388172:4181370") //geckolib
+    implementation fg.deobf("curse.maven:swem-582697:4870246") // SWEM :3
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
