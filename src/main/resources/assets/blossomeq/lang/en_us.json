@@ -143,10 +143,15 @@
 
   "itemGroup.blossom_eq_tab": "BlossomEQ tack",
 
-  "itemGroup.blossom_eq_tab2": "BlossomEQ blocks",
+  "itemGroup.blossom_eq_tab_blocks": "BlossomEQ blocks",
+
+  "item.blossomeq.english_saddle_1" : "English Saddle 1",
+  "item.blossomeq.english_saddle_2" : "English Saddle 2",
 
   "item.blossomeq.pasture_blanket_quilted_white" : "White Quilted Pasture Blanket",
   "item.blossomeq.pasture_blanket_quilted_black" : "Black Quilted Pasture Blanket",
+  "item.blossomeq.pasture_blanket_quilted_brown" : "Brown Quilted Pasture Blanket",
+
   "item.blossomeq.pasture_blanket_neon_1" : "Neon Quilted Pasture Blanket 1",
   "item.blossomeq.pasture_blanket_neon_2" : "Neon Quilted Pasture Blanket 2",
   "item.blossomeq.pasture_blanket_neon_3" : "Neon Quilted Pasture Blanket 3",
@@ -185,6 +190,17 @@
   "item.blossomeq.pasture_blanket_neon_36" : "Neon Quilted Pasture Blanket 36",
   "item.blossomeq.pasture_blanket_neon_37" : "Neon Quilted Pasture Blanket 37",
   "item.blossomeq.pasture_blanket_neon_38" : "Neon Quilted Pasture Blanket 38",
+  "item.blossomeq.pasture_blanket_neon_39" : "Neon Quilted Pasture Blanket 39",
+  "item.blossomeq.pasture_blanket_neon_40" : "Neon Quilted Pasture Blanket 40",
+  "item.blossomeq.pasture_blanket_neon_41" : "Neon Quilted Pasture Blanket 41",
+  "item.blossomeq.pasture_blanket_neon_42" : "Neon Quilted Pasture Blanket 42",
+  "item.blossomeq.pasture_blanket_neon_43" : "Neon Quilted Pasture Blanket 43",
+  "item.blossomeq.pasture_blanket_neon_44" : "Neon Quilted Pasture Blanket 44",
+  "item.blossomeq.pasture_blanket_neon_45" : "Neon Quilted Pasture Blanket 45",
+  "item.blossomeq.pasture_blanket_neon_46" : "Neon Quilted Pasture Blanket 46",
+  "item.blossomeq.pasture_blanket_neon_47" : "Neon Quilted Pasture Blanket 47",
+  "item.blossomeq.pasture_blanket_neon_48" : "Neon Quilted Pasture Blanket 48",
+  "item.blossomeq.pasture_blanket_neon_49" : "Neon Quilted Pasture Blanket 49",
   
   
   "item.blossomeq.transport_boots_1" : "Transport Boots 1",
@@ -211,6 +227,18 @@
   "item.blossomeq.transport_boots_22" : "Transport Boots 22",
   "item.blossomeq.transport_boots_23" : "Transport Boots 23",
   "item.blossomeq.transport_boots_24" : "Transport Boots 24",
-  "item.blossomeq.transport_boots_25" : "Transport Boots 25"  
+  "item.blossomeq.transport_boots_25" : "Transport Boots 25",
+
+  "item.blossomeq.english_sheepskin_1" : "English Sheepskin Black",
+  "item.blossomeq.english_sheepskin_2" : "English Sheepskin Brown",
+  "item.blossomeq.english_sheepskin_3" : "English Sheepskin Creme",
+  "item.blossomeq.english_sheepskin_4" : "English Sheepskin Navy",
+  "item.blossomeq.english_sheepskin_5" : "English Sheepskin Pink",
+
+  "item.blossomeq.western_sheepskin_1" : "Western Sheepskin Black",
+  "item.blossomeq.western_sheepskin_2" : "Western Sheepskin Brown",
+  "item.blossomeq.western_sheepskin_3" : "Western Sheepskin Creme",
+  "item.blossomeq.western_sheepskin_4" : "Western Sheepskin Navy",
+  "item.blossomeq.western_sheepskin_5" : "Western Sheepskin Pink"
 
 }

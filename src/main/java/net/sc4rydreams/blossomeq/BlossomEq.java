@@ -1,8 +1,8 @@
 package net.sc4rydreams.blossomeq;
 
 import com.mojang.logging.LogUtils;
-import net.sc4rydreams.blossomeq.block.ModBlocks;
-import net.sc4rydreams.blossomeq.item.Moditems;
+import net.sc4rydreams.blossomeq.block.BlossomBlocks;
+import net.sc4rydreams.blossomeq.item.Blossomitems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,20 +13,20 @@ import net.sc4rydreams.blossomeq.registry.BlossomTackItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(blossomeq.MOD_ID)
-public class blossomeq {
+@Mod(BlossomEq.MOD_ID)
+public class BlossomEq {
     public static final String MOD_ID = "blossomeq";
 
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public blossomeq() {
+    public BlossomEq() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Moditems.register(eventBus);
-        ModBlocks.register(eventBus);
+        Blossomitems.register(eventBus);
+        BlossomBlocks.register(eventBus);
 
         BlossomTackItems.init(eventBus);// registers the deferred items in ModItems
 

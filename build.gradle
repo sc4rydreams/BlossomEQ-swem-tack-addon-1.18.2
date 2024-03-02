@@ -27,9 +27,9 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'eclipse'
 
 //Updated your version number to not be the Forge version number. Temp set it as a BETA and 0.0.3 - tre
-version = '0.0.3-1.18.2--BETA'
+version = '0.0.4-1.18.2--BETA'
 group = 'blossomeq' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'blossomeq'
+archivesBaseName = 'BlossomEQ'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

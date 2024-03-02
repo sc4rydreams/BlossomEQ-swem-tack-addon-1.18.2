@@ -5,9 +5,9 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
-import net.sc4rydreams.blossomeq.blossomeq;
+import net.sc4rydreams.blossomeq.BlossomEq;
 
-@Mod.EventBusSubscriber(modid = blossomeq.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = BlossomEq.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
 
     @SubscribeEvent
