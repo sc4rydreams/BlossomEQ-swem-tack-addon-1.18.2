@@ -25,3 +25,20 @@
 --- MISSING THE BLACK AND WHITE QUILTED GUI ICONS.
 --------- THEY NEED TO BE ADDED TO THE assets > blossomeq > textures > item > pasture_blanket FOLDER
 --------- THEY NEED TO BE NAMED pasture_blanket_quilted_[color]_icon.png
+
+- added the render textures
+--- MISSING THE PASTURE BLANKET #5 RENDER TEXTURE
+---------- NEEDS TO BE ADDED TO assets > swem > textures > entity > horse > armor > pasture_blanket FOLDER
+---------- NEEDS TO BE NAMED pasture_blanket_neon_5.png
+
+- Added data generators so I didn't have to do the model.json files
+--- generated json files and added them
+
+- Updated Language File
+
+- PLAY TESTED - ALL WORKS WELL OUTSIDE OF PREDICTED/KNOWN ERRORS
+------ This does include the error of the transport boots not going above the knee
+
+--- Updated Credits :3
+
+######## READY FOR V1.0 RELEASE ########
