@@ -1,1 +1,6 @@
-Code to add additional SWEM tack items done by kyraltre
+Code to add additional SWEM tack items done by kyraltre, this includes:
+-- Initial Data Generator files
+-- Tack registry
+-- Asset Directory
+
+--- Also worked on refactoring the directory to be more accurate to the system
