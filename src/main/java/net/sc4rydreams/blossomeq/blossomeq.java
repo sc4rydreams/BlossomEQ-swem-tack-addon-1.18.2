@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.sc4rydreams.blossomeq.registry.BlossomTackItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -26,6 +27,9 @@ public class blossomeq {
 
         Moditems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        BlossomTackItems.init(eventBus);// registers the deferred items in ModItems
+
 
         eventBus.addListener(this::setup);
 
