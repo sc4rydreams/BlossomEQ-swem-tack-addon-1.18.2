@@ -13,7 +13,6 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
 import net.sc4rydreams.blossomeq.item.ModCreativeModeTab;
 
-import javax.swing.*;
 
 public class BlossomTackItems {
     public static  final DeferredRegister<Item> ITEMS;
