@@ -6,6 +6,8 @@ import java.util.List;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.AdventureLegWraps;
 import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
+import com.alaharranhonor.swem.forge.items.tack.WesternBlanketItem;
+import com.alaharranhonor.swem.forge.items.tack.WesternBreastCollarItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,6 +22,7 @@ public class BlossomTackItems {
     // ONE OFF TACK ITEMS - This is where we are basically having the game set these aside for us to call later.
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_QUILTED_WHITE;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_QUILTED_BLACK;
+    public static final RegistryObject<WesternBreastCollarItem> SHEEPSKIN;
 
 
     // TACK FOR LOOPS - These are looping ones
@@ -50,6 +53,10 @@ public class BlossomTackItems {
                         "pasture_blanket_quilted_black", new Item.Properties()
                         .tab(ModCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16)));
 
+        SHEEPSKIN = ITEMS.register("sheepskin",
+                () -> new WesternBreastCollarItem("sheepskin",
+                        new Item.Properties().tab(ModCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16)));
+
 // Looping tack items
 
         TRANSPORT_BOOTS = new ArrayList<>(); // 25 transport boots
@@ -62,8 +69,8 @@ public class BlossomTackItems {
         }
 
 
-        PASTURE_BLANKETS_NEON = new ArrayList<>(); // 38 transport boots
-        for(int var1 = 0; var1 < 38; ++var1) {
+        PASTURE_BLANKETS_NEON = new ArrayList<>(); // 49 transport boots
+        for(int var1 = 0; var1 < 49; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKETS_NEON.add(ITEMS.register("pasture_blanket_neon_" + counter,
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
