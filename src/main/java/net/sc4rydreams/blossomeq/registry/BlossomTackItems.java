@@ -56,8 +56,8 @@ public class BlossomTackItems {
         TRANSPORT_BOOTS = new ArrayList<>(); // 25 transport boots
         for(int var1 = 0; var1 < 25; ++var1) {
             int counter = var1 + 1;
-            TRANSPORT_BOOTS.add(ITEMS.register("transport_boots" + counter,
-                    () -> new AdventureLegWraps("award_adventure_leg_wraps_" + counter, (new Item.Properties())
+            TRANSPORT_BOOTS.add(ITEMS.register("transport_boots_" + counter,
+                    () -> new AdventureLegWraps("transport_boots_" + counter, (new Item.Properties())
                             .tab(ModCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
