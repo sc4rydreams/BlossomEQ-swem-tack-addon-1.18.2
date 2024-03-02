@@ -1,4 +1,4 @@
-package net.blossomeq.mod;
+package net.sc4rydreams.blossomeq;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
