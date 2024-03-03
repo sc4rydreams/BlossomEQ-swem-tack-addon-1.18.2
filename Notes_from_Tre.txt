@@ -1,0 +1,44 @@
+3.1.2024 Logs
+
+- Added credit and readme temp files
+
+- updated build.gradle file to include the swem files
+---- Added the Sponge mixins +  tiny clean up
+---- Updated version file to not be the forge version
+- updated mods.toml file to include SWEM dependencies
+
+- added the directories for the textures on the horse and in menus
+---- .... not sure if they will transfer since there is nothing in them
+
+- refactored (renamed) and cleaned up the main java directory to be in line with clean coding techniques
+---- net > your tag > your mod ID > all mod folders
+
+- added the registry method to do tack ons and called it in the main mod file
+
+- updated the mods.toml file to have a readable logo file and then added a temp image (the blossom item) to the location needed.
+
+- Added the call code in the main mod file
+- Added the new registry package and class
+---- Added the code to call the tack items
+
+- added the GUI icons
+--- MISSING THE BLACK AND WHITE QUILTED GUI ICONS.
+--------- THEY NEED TO BE ADDED TO THE assets > blossomeq > textures > item > pasture_blanket FOLDER
+--------- THEY NEED TO BE NAMED pasture_blanket_quilted_[color]_icon.png
+
+- added the render textures
+--- MISSING THE PASTURE BLANKET #5 RENDER TEXTURE
+---------- NEEDS TO BE ADDED TO assets > swem > textures > entity > horse > armor > pasture_blanket FOLDER
+---------- NEEDS TO BE NAMED pasture_blanket_neon_5.png
+
+- Added data generators so I didn't have to do the model.json files
+--- generated json files and added them
+
+- Updated Language File
+
+- PLAY TESTED - ALL WORKS WELL OUTSIDE OF PREDICTED/KNOWN ERRORS
+------ This does include the error of the transport boots not going above the knee
+
+--- Updated Credits :3
+
+######## READY FOR V1.0 RELEASE ########

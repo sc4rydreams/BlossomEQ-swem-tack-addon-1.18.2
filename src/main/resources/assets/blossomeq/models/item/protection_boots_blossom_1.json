@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "blossomeq:item/protection_boots/protection_boots_blossom_1"
+  }
+}
