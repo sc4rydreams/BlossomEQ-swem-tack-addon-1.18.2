@@ -41,19 +41,19 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //            ((ItemModelBuilder) this.withExistingParent("transport_boots_" + var1, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("blossomeq", "item/transport_boots/transport_boots_" + var1));
 //        }
-//        for (int var1 = 1; var1 < 6; ++var1) {
-//            ((ItemModelBuilder) this.withExistingParent("western_sheepskin_" + var1, "item/generated"))
-//                    .texture("layer0", new ResourceLocation("blossomeq", "item/sheepskins/western_sheepskin_" + var1));
-//        }
+        for (int var1 = 1; var1 < 6; ++var1) {
+            ((ItemModelBuilder) this.withExistingParent("western_sheepskin_blossom_" + var1, "item/generated"))
+                    .texture("layer0", new ResourceLocation("blossomeq", "item/sheepskins/western_sheepskin_blossom_" + var1));
+        }
 
-//        for (int var1 = 1; var1 < 6; ++var1) {
-//                ((ItemModelBuilder) this.withExistingParent("english_sheepskin_" + var1, "item/generated"))
-//                        .texture("layer0", new ResourceLocation("blossomeq", "item/sheepskins/english_sheepskin_" + var1));
-//        }
+        for (int var1 = 1; var1 < 6; ++var1) {
+                ((ItemModelBuilder) this.withExistingParent("english_sheepskin_blossom_" + var1, "item/generated"))
+                        .texture("layer0", new ResourceLocation("blossomeq", "item/sheepskins/english_sheepskin_blossom_" + var1));
+        }
 
         for (int var1 = 1; var1 < 3; ++var1) {
-            ((ItemModelBuilder) this.withExistingParent("english_saddle_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddles/english_saddle_" + var1));
+            ((ItemModelBuilder) this.withExistingParent("english_saddle_blossom_" + var1, "item/generated"))
+                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddles/english_saddle_blossom_" + var1));
         }
 
     }

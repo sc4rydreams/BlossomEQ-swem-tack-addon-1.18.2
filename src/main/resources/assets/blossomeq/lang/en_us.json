@@ -145,8 +145,8 @@
 
   "itemGroup.blossom_eq_tab_blocks": "BlossomEQ blocks",
 
-  "item.blossomeq.english_saddle_1" : "English Saddle 1",
-  "item.blossomeq.english_saddle_2" : "English Saddle 2",
+  "item.blossomeq.english_saddle_blossom_1" : "English Saddle Black",
+  "item.blossomeq.english_saddle_blossom_2" : "English Saddle Brown",
 
   "item.blossomeq.pasture_blanket_quilted_white" : "White Quilted Pasture Blanket",
   "item.blossomeq.pasture_blanket_quilted_black" : "Black Quilted Pasture Blanket",
@@ -229,16 +229,16 @@
   "item.blossomeq.transport_boots_24" : "Transport Boots 24",
   "item.blossomeq.transport_boots_25" : "Transport Boots 25",
 
-  "item.blossomeq.english_sheepskin_1" : "English Sheepskin Black",
-  "item.blossomeq.english_sheepskin_2" : "English Sheepskin Brown",
-  "item.blossomeq.english_sheepskin_3" : "English Sheepskin Creme",
-  "item.blossomeq.english_sheepskin_4" : "English Sheepskin Navy",
-  "item.blossomeq.english_sheepskin_5" : "English Sheepskin Pink",
+  "item.blossomeq.english_sheepskin_blossom_1" : "English Sheepskin Black",
+  "item.blossomeq.english_sheepskin_blossom_2" : "English Sheepskin Brown",
+  "item.blossomeq.english_sheepskin_blossom_3" : "English Sheepskin Creme",
+  "item.blossomeq.english_sheepskin_blossom_4" : "English Sheepskin Navy",
+  "item.blossomeq.english_sheepskin_blossom_5" : "English Sheepskin Pink",
 
-  "item.blossomeq.western_sheepskin_1" : "Western Sheepskin Black",
-  "item.blossomeq.western_sheepskin_2" : "Western Sheepskin Brown",
-  "item.blossomeq.western_sheepskin_3" : "Western Sheepskin Creme",
-  "item.blossomeq.western_sheepskin_4" : "Western Sheepskin Navy",
-  "item.blossomeq.western_sheepskin_5" : "Western Sheepskin Pink"
+  "item.blossomeq.western_sheepskin_blossom_1" : "Western Sheepskin Black",
+  "item.blossomeq.western_sheepskin_blossom_2" : "Western Sheepskin Brown",
+  "item.blossomeq.western_sheepskin_blossom_3" : "Western Sheepskin Creme",
+  "item.blossomeq.western_sheepskin_blossom_4" : "Western Sheepskin Navy",
+  "item.blossomeq.western_sheepskin_blossom_5" : "Western Sheepskin Pink"
 
 }

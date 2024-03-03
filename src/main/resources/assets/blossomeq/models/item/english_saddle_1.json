@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "blossomeq:item/saddles/english_saddle_1"
-  }
-}

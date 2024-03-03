@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "blossomeq:item/sheepskins/english_sheepskin_blossom_1"
+  }
+}

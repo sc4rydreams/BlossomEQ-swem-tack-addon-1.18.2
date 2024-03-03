@@ -27,12 +27,12 @@ public class BlossomTackItems {
 
     // TACK FOR LOOPS - These are looping ones
 
-    public static final List<RegistryObject<WesternBreastCollarItem>> ENGLISH_SHEEPSKIN;
+    public static final List<RegistryObject<WesternBreastCollarItem>> ENGLISH_SHEEPSKIN_BLOSSOM;
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS_NEON;
-    public static final List<RegistryObject<AdventureLegWraps>> TRANSPORT_BOOTS;
-    public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_SHEEPSKIN;
+    public static final List<RegistryObject<AdventureLegWraps>> BLOSSOM_TRANSPORT_BOOTS;
+    public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_SHEEPSKIN_BLOSSOM;
 
-    public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLE;
+    public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLE_BLOSSOM;
 
     public BlossomTackItems(){
     }
@@ -62,20 +62,20 @@ public class BlossomTackItems {
 
 // Looping tack items
 
-        TRANSPORT_BOOTS = new ArrayList<>(); // 25 transport boots
+        BLOSSOM_TRANSPORT_BOOTS = new ArrayList<>(); // 25 transport boots
         for(int var1 = 0; var1 < 25; ++var1) {
             int counter = var1 + 1;
-            TRANSPORT_BOOTS.add(ITEMS.register("transport_boots_" + counter,
+            BLOSSOM_TRANSPORT_BOOTS.add(ITEMS.register("transport_boots_" + counter,
                     () -> new AdventureLegWraps("transport_boots_" + counter, (new Item.Properties())
                             .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
 
-        ENGLISH_SADDLE = new ArrayList<>();
+        ENGLISH_SADDLE_BLOSSOM = new ArrayList<>();
         for(int var1 = 0; var1 < 2; ++var1) {
             int counter = var1 + 1;
-            ENGLISH_SADDLE.add(ITEMS.register("english_saddle_" + counter,
-                    () -> new EnglishSaddleItem("english_saddle_" + counter, (new Item.Properties())
+            ENGLISH_SADDLE_BLOSSOM.add(ITEMS.register("english_saddle_blossom_" + counter,
+                    () -> new EnglishSaddleItem("english_saddle_blossom_" + counter, (new Item.Properties())
                             .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
                     ));
         }
@@ -90,20 +90,20 @@ public class BlossomTackItems {
             ));
         }
 
-        ENGLISH_SHEEPSKIN = new ArrayList<>(); // 5 western sheepskins
+        ENGLISH_SHEEPSKIN_BLOSSOM = new ArrayList<>(); // 5 western sheepskins
         for(int var1 = 0; var1 < 5; ++var1) {
             int counter = var1 + 1;
-            ENGLISH_SHEEPSKIN.add(ITEMS.register("english_sheepskin_" + counter,
-                    () -> new WesternBreastCollarItem("english_sheepskin_" + counter,
+            ENGLISH_SHEEPSKIN_BLOSSOM.add(ITEMS.register("english_sheepskin_blossom_" + counter,
+                    () -> new WesternBreastCollarItem("english_sheepskin_blossom_" + counter,
                             new Item.Properties().tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
 
-        WESTERN_SHEEPSKIN = new ArrayList<>(); // 5 english sheepskins
+        WESTERN_SHEEPSKIN_BLOSSOM = new ArrayList<>(); // 5 english sheepskins
         for(int var1 = 0; var1 < 5; ++var1) {
             int counter = var1 + 1;
-            WESTERN_SHEEPSKIN.add(ITEMS.register("western_sheepskin_" + counter,
-                    () -> new WesternBreastCollarItem("western_sheepskin_" + counter,
+            WESTERN_SHEEPSKIN_BLOSSOM.add(ITEMS.register("western_sheepskin_blossom_" + counter,
+                    () -> new WesternBreastCollarItem("western_sheepskin_blossom_" + counter,
                             new Item.Properties().tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
