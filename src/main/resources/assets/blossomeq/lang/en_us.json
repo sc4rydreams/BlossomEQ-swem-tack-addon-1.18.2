@@ -239,6 +239,25 @@
   "item.blossomeq.western_sheepskin_blossom_2" : "Western Sheepskin Brown",
   "item.blossomeq.western_sheepskin_blossom_3" : "Western Sheepskin Creme",
   "item.blossomeq.western_sheepskin_blossom_4" : "Western Sheepskin Navy",
-  "item.blossomeq.western_sheepskin_blossom_5" : "Western Sheepskin Pink"
+  "item.blossomeq.western_sheepskin_blossom_5" : "Western Sheepskin Pink",
 
+  "item.blossomeq.western_saddle_blossom_1" : "Dressage Saddle Black",
+  "item.blossomeq.western_saddle_blossom_2" : "Dressage Saddle Brown",
+  "item.blossomeq.western_saddle_blossom_3" : "Western Saddle Black",
+  "item.blossomeq.western_saddle_blossom_4" : "Western Saddle Brown",
+  "item.blossomeq.western_saddle_blossom_5" : "Western Saddle Brown",
+
+  "item.blossomeq.adventure_saddle_blossom_1" : "Adventure Saddle Black&White",
+  "item.blossomeq.adventure_saddle_blossom_2" : "Adventure Saddle Brown&White",
+  "item.blossomeq.adventure_saddle_blossom_3" : "Adventure Saddle Black",
+  "item.blossomeq.adventure_saddle_blossom_4" : "Adventure Saddle Brown",
+
+  "item.blossomeq.protection_boots_blossom_1" : "Fluffy Protection Boots Black",
+  "item.blossomeq.protection_boots_blossom_2" : "Fluffy Protection Boots Brown",
+  "item.blossomeq.protection_boots_blossom_3" : "Protection Boots Black",
+  "item.blossomeq.protection_boots_blossom_4" : "Protection Boots Brown",
+  "item.blossomeq.protection_boots_blossom_5" : "Protection&F Bell Boots Black",
+  "item.blossomeq.protection_boots_blossom_6" : "Bell Boots F Black",
+  "item.blossomeq.protection_boots_blossom_7" : "Bell Boots B Black",
+  "item.blossomeq.protection_boots_blossom_8" : "Bell Boots F&B Black"
 }

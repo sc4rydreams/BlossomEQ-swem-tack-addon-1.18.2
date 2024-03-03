@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
-import com.alaharranhonor.swem.forge.items.tack.AdventureLegWraps;
-import com.alaharranhonor.swem.forge.items.tack.EnglishSaddleItem;
-import com.alaharranhonor.swem.forge.items.tack.PastureBlanketItem;
-import com.alaharranhonor.swem.forge.items.tack.WesternBreastCollarItem;
+import com.alaharranhonor.swem.forge.items.tack.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,8 +28,10 @@ public class BlossomTackItems {
     public static final List<RegistryObject<PastureBlanketItem>> PASTURE_BLANKETS_NEON;
     public static final List<RegistryObject<AdventureLegWraps>> BLOSSOM_TRANSPORT_BOOTS;
     public static final List<RegistryObject<WesternBreastCollarItem>> WESTERN_SHEEPSKIN_BLOSSOM;
-
     public static final List<RegistryObject<EnglishSaddleItem>> ENGLISH_SADDLE_BLOSSOM;
+    public static final List<RegistryObject<WesternSaddleItem>> WESTERN_SADDLE_BLOSSOM;
+    public static final List<RegistryObject<AdventureSaddleItem>> ADVENTURE_SADDLE_BLOSSOM;
+    public static final List<RegistryObject<AdventureLegWraps>> PROTECTION_BOOTS_BLOSSOM;
 
     public BlossomTackItems(){
     }
@@ -67,6 +66,33 @@ public class BlossomTackItems {
             int counter = var1 + 1;
             BLOSSOM_TRANSPORT_BOOTS.add(ITEMS.register("transport_boots_" + counter,
                     () -> new AdventureLegWraps("transport_boots_" + counter, (new Item.Properties())
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
+            ));
+        }
+
+        PROTECTION_BOOTS_BLOSSOM = new ArrayList<>(); // 25 transport boots
+        for(int var1 = 0; var1 < 8; ++var1) {
+            int counter = var1 + 1;
+            PROTECTION_BOOTS_BLOSSOM.add(ITEMS.register("protection_boots_blossom_" + counter,
+                    () -> new AdventureLegWraps("protection_boots_blossom_" + counter, (new Item.Properties())
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
+            ));
+        }
+
+        WESTERN_SADDLE_BLOSSOM = new ArrayList<>();
+        for(int var1 = 0; var1 < 5; ++var1) {
+            int counter = var1 + 1;
+            WESTERN_SADDLE_BLOSSOM.add(ITEMS.register("western_saddle_blossom_" + counter,
+                    () -> new WesternSaddleItem("western_saddle_blossom_" + counter, (new Item.Properties())
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
+            ));
+        }
+
+        ADVENTURE_SADDLE_BLOSSOM = new ArrayList<>();
+        for(int var1 = 0; var1 < 4; ++var1) {
+            int counter = var1 + 1;
+            ADVENTURE_SADDLE_BLOSSOM.add(ITEMS.register("adventure_saddle_blossom_" + counter,
+                    () -> new AdventureSaddleItem("adventure_saddle_blossom_" + counter, (new Item.Properties())
                             .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
