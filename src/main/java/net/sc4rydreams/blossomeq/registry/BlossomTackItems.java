@@ -84,7 +84,7 @@ public class BlossomTackItems {
             ));
         }
         SADDLE_PAD_NEON = new ArrayList<>(); // 25 transport boots
-        for(int var1 = 0; var1 < 4; ++var1) {
+        for(int var1 = 0; var1 < 49; ++var1) {
             int counter = var1 + 1;
             SADDLE_PAD_NEON.add(ITEMS.register("saddle_pad_neon_" + counter,
                     () -> new WesternBlanketItem("saddle_pad_neon_" + counter, (new Item.Properties())
