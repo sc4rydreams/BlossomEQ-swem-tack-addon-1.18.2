@@ -1,4 +1,4 @@
-Code to add additional SWEM tack items done by kyraltre, this includes:
+Credits to kyraltre for code to add additional SWEM tack items, this includes:
 
 - Initial Data Generator files
 - Tack registry

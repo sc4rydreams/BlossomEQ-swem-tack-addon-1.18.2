@@ -69,11 +69,11 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //                    .texture("layer0", new ResourceLocation("blossomeq", "item/girths/western_girth_blossom_" + var1));
 //        }
 
-        for (int var1 = 1; var1 < 3; ++var1) {
-            //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/english_bridle_blossom_" + var1));
-        }
+//        for (int var1 = 1; var1 < 3; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/english_bridle_blossom_" + var1));
+//        }
 //        for (int var1 = 1; var1 < 9; ++var1) {
 //            //int counter = var1 + 1;
 //            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
@@ -87,10 +87,15 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //        }
 
 
-        for (int var1 = 1; var1 < 12; ++var1) {
+//        for (int var1 = 1; var1 < 12; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/western_bridle_blossom_" + var1));
+//        }
+        for (int var1 = 3; var1 < 5; ++var1) {
             //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/western_bridle_blossom_" + var1));
+            ((ItemModelBuilder) this.withExistingParent("saddle_pad_neon_" + var1, "item/generated"))
+                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddle_pads/saddle_pad_neon_" + var1));
         }
 
     }
