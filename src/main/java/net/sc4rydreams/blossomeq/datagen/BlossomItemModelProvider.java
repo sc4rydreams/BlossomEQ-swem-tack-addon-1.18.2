@@ -69,25 +69,25 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //                    .texture("layer0", new ResourceLocation("blossomeq", "item/girths/western_girth_blossom_" + var1));
 //        }
 
-        for (int var1 = 1; var1 < 9; ++var1) {
+        for (int var1 = 1; var1 < 3; ++var1) {
             //int counter = var1 + 1;
             ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
                     .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/english_bridle_blossom_" + var1));
         }
-        for (int var1 = 1; var1 < 9; ++var1) {
-            //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridle_models/english_bridle_blossom_" + var1 + "_model.png"));
-        }
+//        for (int var1 = 1; var1 < 9; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridle_models/english_bridle_blossom_" + var1 + "_model.png"));
+//        }
+//
+//        for (int var1 = 1; var1 < 9; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridle_models/western_bridle_blossom_" + var1 + "_model.png"));
+//        }
 
-        for (int var1 = 1; var1 < 9; ++var1) {
-            //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridle_models/western_bridle_blossom_" + var1 + "_model.png"));
-        }
 
-
-        for (int var1 = 1; var1 < 9; ++var1) {
+        for (int var1 = 1; var1 < 12; ++var1) {
             //int counter = var1 + 1;
             ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
                     .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/western_bridle_blossom_" + var1));

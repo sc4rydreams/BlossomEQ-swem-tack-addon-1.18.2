@@ -259,5 +259,30 @@
   "item.blossomeq.protection_boots_blossom_5" : "Protection&F Bell Boots Black",
   "item.blossomeq.protection_boots_blossom_6" : "Bell Boots F Black",
   "item.blossomeq.protection_boots_blossom_7" : "Bell Boots B Black",
-  "item.blossomeq.protection_boots_blossom_8" : "Bell Boots F&B Black"
+  "item.blossomeq.protection_boots_blossom_8" : "Bell Boots F&B Black",
+
+  "item.blossomeq.western_girth_blossom_1" : "Western Girth Black",
+  "item.blossomeq.western_girth_blossom_2" : "Western Girth Brown",
+  "item.blossomeq.western_girth_blossom_3" : "English Girth Black",
+  "item.blossomeq.western_girth_blossom_4" : "English Girth Brown",
+  "item.blossomeq.western_girth_blossom_5" : "Fluffy English Girth Black",
+  "item.blossomeq.western_girth_blossom_6" : "Fluffy English Girth Brown",
+  "item.blossomeq.western_girth_blossom_7" : "Jumping Girth Black",
+  "item.blossomeq.western_girth_blossom_8" : "Jumping Girth Brown",
+  "item.blossomeq.western_girth_blossom_9" : "No Girth",
+
+  "item.blossomeq.western_bridle_blossom_1" : "Western Bridle Bitless Black",
+  "item.blossomeq.western_bridle_blossom_2" : "Western Bridle Bitless Brown",
+  "item.blossomeq.western_bridle_blossom_3" : "Western Bridle-less Bit Black",
+  "item.blossomeq.western_bridle_blossom_4" : "Western Bridle Plain Black",
+  "item.blossomeq.western_bridle_blossom_5" : "Western Bridle Plain Brown",
+  "item.blossomeq.western_bridle_blossom_6" : "Western Bridle Mexican Black",
+  "item.blossomeq.western_bridle_blossom_7" : "Western Bridle Mexican Brown",
+  "item.blossomeq.western_bridle_blossom_8" : "Western Bridle Snaffle Black",
+  "item.blossomeq.western_bridle_blossom_9" : "Western Bridle Snaffle Brown",
+  "item.blossomeq.western_bridle_blossom_10" : "True Western Bridle Black",
+  "item.blossomeq.western_bridle_blossom_11" : "True Western Bridle Brown",
+
+  "item.blossomeq.english_bridle_blossom_1" : "English Bridle Plain Black",
+  "item.blossomeq.english_bridle_blossom_2" : "English Bridle Plain Brown"
 }

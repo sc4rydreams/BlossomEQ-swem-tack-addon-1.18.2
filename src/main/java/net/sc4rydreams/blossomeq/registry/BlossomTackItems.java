@@ -75,7 +75,7 @@ public class BlossomTackItems {
         }
 
         ENGLISH_BRIDLE_BLOSSOM = new ArrayList<>(); // 25 transport boots
-        for(int var1 = 0; var1 < 4; ++var1) {
+        for(int var1 = 0; var1 < 2; ++var1) {
             int counter = var1 + 1;
         ENGLISH_BRIDLE_BLOSSOM.add(ITEMS.register("english_bridle_blossom_" + counter,
                     () -> new EnglishBridleItem("english_bridle_blossom_" + counter, (new Item.Properties())
@@ -84,7 +84,7 @@ public class BlossomTackItems {
         }
 
         WESTERN_BRIDLE_BLOSSOM = new ArrayList<>(); // 25 transport boots
-        for(int var1 = 0; var1 < 4; ++var1) {
+        for(int var1 = 0; var1 < 11; ++var1) {
             int counter = var1 + 1;
         WESTERN_BRIDLE_BLOSSOM.add(ITEMS.register("western_bridle_blossom_" + counter,
                     () -> new WesternBridleItem("western_bridle_blossom_" + counter, (new Item.Properties())
