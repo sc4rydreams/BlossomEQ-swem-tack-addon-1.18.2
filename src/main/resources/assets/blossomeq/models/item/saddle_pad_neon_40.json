@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "blossomeq:item/saddle_pads/saddle_pad_neon_40"
+  }
+}
