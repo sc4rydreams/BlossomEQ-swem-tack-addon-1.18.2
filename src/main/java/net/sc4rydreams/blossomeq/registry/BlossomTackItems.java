@@ -57,17 +57,17 @@ public class BlossomTackItems {
         PASTURE_BLANKET_QUILTED_WHITE = ITEMS.register("pasture_blanket_quilted_white",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_quilted_white", new Item.Properties()
-                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16)));
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_PBLANKETS).stacksTo(16)));
 
         PASTURE_BLANKET_QUILTED_BLACK = ITEMS.register("pasture_blanket_quilted_black",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_quilted_black", new Item.Properties()
-                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16)));
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_PBLANKETS).stacksTo(16)));
 
         PASTURE_BLANKET_QUILTED_BROWN = ITEMS.register("pasture_blanket_quilted_brown",
                 () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                         "pasture_blanket_quilted_brown", new Item.Properties()
-                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16)));
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_PBLANKETS).stacksTo(16)));
 
 
 
@@ -162,7 +162,7 @@ public class BlossomTackItems {
             PASTURE_BLANKETS_NEON.add(ITEMS.register("pasture_blanket_neon_" + counter,
                     () -> new PastureBlanketItem(SWEMHorseArmorItem.HorseArmorTier.NONE, 0,
                             "pasture_blanket_neon_" + counter, (new Item.Properties())
-                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_PBLANKETS).stacksTo(16))
             ));
         }
 
