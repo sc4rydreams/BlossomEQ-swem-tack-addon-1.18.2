@@ -88,7 +88,7 @@ public class BlossomTackItems {
             int counter = var1 + 1;
             SADDLE_PAD_NEON.add(ITEMS.register("saddle_pad_neon_" + counter,
                     () -> new WesternBlanketItem("saddle_pad_neon_" + counter, (new Item.Properties())
-                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_SADDLEPADS).stacksTo(16))
             ));
         }
 

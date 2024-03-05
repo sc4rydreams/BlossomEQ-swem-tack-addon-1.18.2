@@ -141,9 +141,11 @@
   "block.blossomeq.sand_grayge_block": "Sand Grayge",
 
 
-  "itemGroup.blossom_eq_tab": "BlossomEQ tack",
+  "itemGroup.blossom_eq_tab": "BlossomEQ Tack",
 
-  "itemGroup.blossom_eq_tab_blocks": "BlossomEQ blocks",
+  "itemGroup.blossom_eq_tab_blocks": "BlossomEQ Blocks",
+
+  "itemGroup.blossom_eq_tab_saddlepads": "BlossomEQ Saddle Pads",
 
   "item.blossomeq.english_saddle_blossom_1" : "English Saddle Black",
   "item.blossomeq.english_saddle_blossom_2" : "English Saddle Brown",
@@ -245,7 +247,7 @@
   "item.blossomeq.western_saddle_blossom_2" : "Dressage Saddle Brown",
   "item.blossomeq.western_saddle_blossom_3" : "Western Saddle Black",
   "item.blossomeq.western_saddle_blossom_4" : "Western Saddle Brown",
-  "item.blossomeq.western_saddle_blossom_5" : "Western Saddle Brown",
+  "item.blossomeq.western_saddle_blossom_5" : "No Saddle",
 
   "item.blossomeq.adventure_saddle_blossom_1" : "Adventure Saddle Black&White",
   "item.blossomeq.adventure_saddle_blossom_2" : "Adventure Saddle Brown&White",

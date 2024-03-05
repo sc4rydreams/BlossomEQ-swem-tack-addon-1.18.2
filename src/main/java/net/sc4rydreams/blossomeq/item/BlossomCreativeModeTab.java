@@ -20,4 +20,13 @@ public class BlossomCreativeModeTab {
 
             }
         };
+
+    public static final CreativeModeTab BLOSSOM_EQ_TAB_SADDLEPADS = new CreativeModeTab("blossom_eq_tab_saddlepads") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(Blossomitems.CHERRY_BLOSSOM_3.get());
+
+
+        }
+    };
 }
