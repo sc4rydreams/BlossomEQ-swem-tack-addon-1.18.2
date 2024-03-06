@@ -111,7 +111,7 @@ public class BlossomTackItems {
         }
 
         WESTERN_GIRTH_BLOSSOM = new ArrayList<>(); // 25 transport boots
-        for(int var1 = 0; var1 < 9; ++var1) {
+        for(int var1 = 0; var1 < 15; ++var1) {
             int counter = var1 + 1;
         WESTERN_GIRTH_BLOSSOM    .add(ITEMS.register("western_girth_blossom_" + counter,
                     () -> new WesternGirthStrapItem("western_girth_blossom_" + counter, (new Item.Properties())

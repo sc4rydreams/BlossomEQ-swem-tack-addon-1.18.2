@@ -63,11 +63,11 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //        }
 
 //
-        for (int var1 = 10; var1 < 16; ++var1) {
-            //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("western_girth_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/girths/western_girth_blossom_" + var1));
-        }
+//        for (int var1 = 10; var1 < 16; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("western_girth_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/girths/western_girth_blossom_" + var1));
+//        }
 
 //        for (int var1 = 1; var1 < 3; ++var1) {
 //            //int counter = var1 + 1;
@@ -92,11 +92,11 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/western_bridle_blossom_" + var1));
 //        }
-        for (int var1 = 1; var1 < 50; ++var1) {
-            //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("saddle_pad_neon_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddle_pads/saddle_pad_neon_" + var1));
-        }
+//        for (int var1 = 1; var1 < 50; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("saddle_pad_neon_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddle_pads/saddle_pad_neon_" + var1));
+//        }
 
     }
 

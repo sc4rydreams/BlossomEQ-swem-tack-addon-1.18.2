@@ -1,6 +1,12 @@
 {
   "item.blossomeq.cherry_blossom": "Cherry Blossom",
   "item.blossomeq.cherry_blossom_2": "Cherry Blossom Dark",
+  "item.blossomeq.cherry_blossom_8": "Cherry Blossom Very Light",
+  "item.blossomeq.cherry_blossom_7": "Cherry Blossom Light",
+  "item.blossomeq.cherry_blossom_6": "Cherry Blossom Light Normal",
+  "item.blossomeq.cherry_blossom_5": "Cherry Blossom Normal",
+  "item.blossomeq.cherry_blossom_4": "Cherry Blossom Medium",
+  "item.blossomeq.cherry_blossom_3": "Cherry Blossom Medium Dark",
 
   "block.blossomeq.sand_pale_block": "Sand Pale",
   "block.blossomeq.sandstone_pale_block": "Sandstone Pale",
@@ -275,6 +281,12 @@
   "item.blossomeq.western_girth_blossom_7" : "Jumping Girth Black",
   "item.blossomeq.western_girth_blossom_8" : "Jumping Girth Brown",
   "item.blossomeq.western_girth_blossom_9" : "No Girth",
+  "item.blossomeq.western_girth_blossom_10" : "Short Jumping Girth Black",
+  "item.blossomeq.western_girth_blossom_11" : "Short Jumping Girth Brown",
+  "item.blossomeq.western_girth_blossom_12" : "Short English Girth Black",
+  "item.blossomeq.western_girth_blossom_13" : "Short English Girth Brown",
+  "item.blossomeq.western_girth_blossom_14" : "Short Fluffy English Girth Black",
+  "item.blossomeq.western_girth_blossom_15" : "Short Fluffy English Girth Brown",
 
   "item.blossomeq.western_bridle_blossom_1" : "Western Bridle Bitless Black",
   "item.blossomeq.western_bridle_blossom_2" : "Western Bridle Bitless Brown",
