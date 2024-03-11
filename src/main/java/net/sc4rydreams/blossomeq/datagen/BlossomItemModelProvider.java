@@ -17,7 +17,7 @@ public class BlossomItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // ONE OFFS
- //       for (int var1 = 0; var1 < 1; ++var1) {
+        //       for (int var1 = 0; var1 < 1; ++var1) {
 //            ((ItemModelBuilder) this.withExistingParent("pasture_blanket_" + "quilted_black", "item/generated"))
 //                .texture("layer0", new ResourceLocation("blossomeq", "items/pasture_blanket/pasture_blanket_" + "quilted_black" + "_icon"));
 //
@@ -29,7 +29,7 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //
 //        }
 
-    // LOOPING - values are one more than you want
+        // LOOPING - values are one more than you want
         //for (int var1 = 1; var1 < 50; ++var1) {
 //            //int counter = var1 + 1;
 //            ((ItemModelBuilder) this.withExistingParent("pasture_blanket_neon_" + var1, "item/generated"))
@@ -56,17 +56,54 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddles/english_saddle_blossom_" + var1));
 //        }
 
-        for (int var1 = 1; var1 < 9; ++var1) {
-            //int counter = var1 + 1;
-            ((ItemModelBuilder) this.withExistingParent("protection_boots_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/protection_boots/protection_boots_blossom_" + var1));
-        }
+//        for (int var1 = 1; var1 < 9; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("protection_boots_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/protection_boots/protection_boots_blossom_" + var1));
+//        }
+
+//
+//        for (int var1 = 10; var1 < 16; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("western_girth_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/girths/western_girth_blossom_" + var1));
+//        }
+
+//        for (int var1 = 1; var1 < 3; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/english_bridle_blossom_" + var1));
+//        }
+//        for (int var1 = 1; var1 < 9; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("english_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridle_models/english_bridle_blossom_" + var1 + "_model.png"));
+//        }
+//
+//        for (int var1 = 1; var1 < 9; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridle_models/western_bridle_blossom_" + var1 + "_model.png"));
+//        }
+
+
+//        for (int var1 = 1; var1 < 12; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("western_bridle_blossom_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/bridles/western_bridle_blossom_" + var1));
+//        }
+//        for (int var1 = 1; var1 < 50; ++var1) {
+//            //int counter = var1 + 1;
+//            ((ItemModelBuilder) this.withExistingParent("saddle_pad_neon_" + var1, "item/generated"))
+//                    .texture("layer0", new ResourceLocation("blossomeq", "item/saddle_pads/saddle_pad_neon_" + var1));
+//        }
 
     }
+
 
     private ItemModelBuilder simpleItem(Item item) {
         return withExistingParent(item.getRegistryName().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(BlossomEq.MOD_ID,"item/" + item.getRegistryName().getPath()));
+                new ResourceLocation(BlossomEq.MOD_ID, "item/" + item.getRegistryName().getPath()));
     }
 }

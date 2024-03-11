@@ -1,6 +1,12 @@
 {
   "item.blossomeq.cherry_blossom": "Cherry Blossom",
   "item.blossomeq.cherry_blossom_2": "Cherry Blossom Dark",
+  "item.blossomeq.cherry_blossom_8": "Cherry Blossom Very Light",
+  "item.blossomeq.cherry_blossom_7": "Cherry Blossom Light",
+  "item.blossomeq.cherry_blossom_6": "Cherry Blossom Light Normal",
+  "item.blossomeq.cherry_blossom_5": "Cherry Blossom Normal",
+  "item.blossomeq.cherry_blossom_4": "Cherry Blossom Medium",
+  "item.blossomeq.cherry_blossom_3": "Cherry Blossom Medium Dark",
 
   "block.blossomeq.sand_pale_block": "Sand Pale",
   "block.blossomeq.sandstone_pale_block": "Sandstone Pale",
@@ -141,9 +147,14 @@
   "block.blossomeq.sand_grayge_block": "Sand Grayge",
 
 
-  "itemGroup.blossom_eq_tab": "BlossomEQ tack",
+  "itemGroup.blossom_eq_tab": "BlossomEQ Tack",
 
-  "itemGroup.blossom_eq_tab_blocks": "BlossomEQ blocks",
+  "itemGroup.blossom_eq_tab_blocks": "BlossomEQ Blocks",
+
+  "itemGroup.blossom_eq_tab_saddlepads": "BlossomEQ Saddle Pads",
+  "itemGroup.blossom_eq_tab_pastureblankets": "BlossomEQ Pasture Blankets",
+  "itemGroup.blossom_eq_tab_winterblankets": "BlossomEQ Winter Blankets",
+  "itemGroup.blossom_eq_tab_legwraps": "BlossomEQ Leg Wraps",
 
   "item.blossomeq.english_saddle_blossom_1" : "English Saddle Black",
   "item.blossomeq.english_saddle_blossom_2" : "English Saddle Brown",
@@ -245,7 +256,7 @@
   "item.blossomeq.western_saddle_blossom_2" : "Dressage Saddle Brown",
   "item.blossomeq.western_saddle_blossom_3" : "Western Saddle Black",
   "item.blossomeq.western_saddle_blossom_4" : "Western Saddle Brown",
-  "item.blossomeq.western_saddle_blossom_5" : "Western Saddle Brown",
+  "item.blossomeq.western_saddle_blossom_5" : "No Saddle",
 
   "item.blossomeq.adventure_saddle_blossom_1" : "Adventure Saddle Black&White",
   "item.blossomeq.adventure_saddle_blossom_2" : "Adventure Saddle Brown&White",
@@ -259,5 +270,36 @@
   "item.blossomeq.protection_boots_blossom_5" : "Protection&F Bell Boots Black",
   "item.blossomeq.protection_boots_blossom_6" : "Bell Boots F Black",
   "item.blossomeq.protection_boots_blossom_7" : "Bell Boots B Black",
-  "item.blossomeq.protection_boots_blossom_8" : "Bell Boots F&B Black"
+  "item.blossomeq.protection_boots_blossom_8" : "Bell Boots F&B Black",
+
+  "item.blossomeq.western_girth_blossom_1" : "Western Girth Black",
+  "item.blossomeq.western_girth_blossom_2" : "Western Girth Brown",
+  "item.blossomeq.western_girth_blossom_3" : "English Girth Black",
+  "item.blossomeq.western_girth_blossom_4" : "English Girth Brown",
+  "item.blossomeq.western_girth_blossom_5" : "Fluffy English Girth Black",
+  "item.blossomeq.western_girth_blossom_6" : "Fluffy English Girth Brown",
+  "item.blossomeq.western_girth_blossom_7" : "Jumping Girth Black",
+  "item.blossomeq.western_girth_blossom_8" : "Jumping Girth Brown",
+  "item.blossomeq.western_girth_blossom_9" : "No Girth",
+  "item.blossomeq.western_girth_blossom_10" : "Short Jumping Girth Black",
+  "item.blossomeq.western_girth_blossom_11" : "Short Jumping Girth Brown",
+  "item.blossomeq.western_girth_blossom_12" : "Short English Girth Black",
+  "item.blossomeq.western_girth_blossom_13" : "Short English Girth Brown",
+  "item.blossomeq.western_girth_blossom_14" : "Short Fluffy English Girth Black",
+  "item.blossomeq.western_girth_blossom_15" : "Short Fluffy English Girth Brown",
+
+  "item.blossomeq.western_bridle_blossom_1" : "Western Bridle Bitless Black",
+  "item.blossomeq.western_bridle_blossom_2" : "Western Bridle Bitless Brown",
+  "item.blossomeq.western_bridle_blossom_3" : "Western Bridle-less Bit Black",
+  "item.blossomeq.western_bridle_blossom_4" : "Western Bridle Plain Black",
+  "item.blossomeq.western_bridle_blossom_5" : "Western Bridle Plain Brown",
+  "item.blossomeq.western_bridle_blossom_6" : "Western Bridle Mexican Black",
+  "item.blossomeq.western_bridle_blossom_7" : "Western Bridle Mexican Brown",
+  "item.blossomeq.western_bridle_blossom_8" : "Western Bridle Snaffle Black",
+  "item.blossomeq.western_bridle_blossom_9" : "Western Bridle Snaffle Brown",
+  "item.blossomeq.western_bridle_blossom_10" : "True Western Bridle Black",
+  "item.blossomeq.western_bridle_blossom_11" : "True Western Bridle Brown",
+
+  "item.blossomeq.english_bridle_blossom_1" : "English Bridle Plain Black",
+  "item.blossomeq.english_bridle_blossom_2" : "English Bridle Plain Brown"
 }

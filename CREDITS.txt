@@ -1,6 +1,27 @@
-Code to add additional SWEM tack items done by kyraltre, this includes:
--- Initial Data Generator files
--- Tack registry
--- Asset Directory
+Credits to kyraltre for code to add additional SWEM tack items, this includes:
 
---- Also worked on refactoring the directory to be more accurate to the system
+- Initial Data Generator files
+- Tack registry
+- Asset Directory
+
+-- Also worked on refactoring the directory to be more accurate to the system
+
+Credits to Lisssa :
+
+- For providing all her textures
+- For letting us recolor her textures so they fit with the mod
+
+Credits to Haku:
+
+- For providing all their textures
+
+Credits to Hayley:
+
+- For providing some icons for Haku's textures
+
+Credits to Sc4ry_dreams:
+
+- For providing her textures
+- For making most of the icons
+- For coding the base mod
+- For coding more tack items

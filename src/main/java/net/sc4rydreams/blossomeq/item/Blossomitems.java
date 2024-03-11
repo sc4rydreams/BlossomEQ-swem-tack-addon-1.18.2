@@ -18,6 +18,24 @@ public class Blossomitems {
     public static  final RegistryObject<Item> CHERRY_BLOSSOM_2 = ITEMS.register("cherry_blossom_2",
             () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
 
+    public static  final RegistryObject<Item> CHERRY_BLOSSOM_3 = ITEMS.register("cherry_blossom_3",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
+    public static  final RegistryObject<Item> CHERRY_BLOSSOM_4 = ITEMS.register("cherry_blossom_4",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
+    public static  final RegistryObject<Item> CHERRY_BLOSSOM_5 = ITEMS.register("cherry_blossom_5",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
+    public static  final RegistryObject<Item> CHERRY_BLOSSOM_6 = ITEMS.register("cherry_blossom_6",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
+    public static  final RegistryObject<Item> CHERRY_BLOSSOM_7 = ITEMS.register("cherry_blossom_7",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
+    public static  final RegistryObject<Item> CHERRY_BLOSSOM_8 = ITEMS.register("cherry_blossom_8",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
 
 
         public static void  register(IEventBus eventBus) {
