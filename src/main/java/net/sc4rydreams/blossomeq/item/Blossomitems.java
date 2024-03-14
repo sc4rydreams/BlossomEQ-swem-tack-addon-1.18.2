@@ -36,9 +36,15 @@ public class Blossomitems {
     public static  final RegistryObject<Item> CHERRY_BLOSSOM_8 = ITEMS.register("cherry_blossom_8",
             () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
 
+    public static  final RegistryObject<Item> HALTER_TAB = ITEMS.register("halter_tab",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
+
+    public static  final RegistryObject<Item> HALTER_FLUFFY_TAB = ITEMS.register("halter_fluffy_tab",
+            () -> new Item(new Item.Properties() .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB)));
 
 
-        public static void  register(IEventBus eventBus) {
+
+    public static void  register(IEventBus eventBus) {
             ITEMS.register(eventBus);
         }
 

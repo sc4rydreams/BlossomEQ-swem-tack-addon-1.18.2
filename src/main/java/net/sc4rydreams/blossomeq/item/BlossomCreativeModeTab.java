@@ -7,7 +7,7 @@ public class BlossomCreativeModeTab {
     public static final CreativeModeTab BLOSSOM_EQ_TAB = new CreativeModeTab("blossom_eq_tab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Blossomitems.CHERRY_BLOSSOM_8.get());
+            return new ItemStack(Blossomitems.CHERRY_BLOSSOM.get());
 
 
         }
@@ -15,7 +15,7 @@ public class BlossomCreativeModeTab {
         public static final CreativeModeTab BLOSSOM_EQ_TAB_BLOCKS = new CreativeModeTab("blossom_eq_tab_blocks") {
             @Override
             public ItemStack makeIcon() {
-                return new ItemStack(Blossomitems.CHERRY_BLOSSOM_7.get());
+                return new ItemStack(Blossomitems.CHERRY_BLOSSOM_2.get());
 
 
             }
@@ -37,20 +37,38 @@ public class BlossomCreativeModeTab {
 
         }
     };
-    public static final CreativeModeTab BLOSSOM_EQ_TAB_WBLANKETS = new CreativeModeTab("blossom_eq_tab_winterblankets") {
+//    public static final CreativeModeTab BLOSSOM_EQ_TAB_WBLANKETS = new CreativeModeTab("blossom_eq_tab_winterblankets") {
+//        @Override
+//        public ItemStack makeIcon() {
+//            return new ItemStack(Blossomitems.CHERRY_BLOSSOM_4.get());
+//
+//
+//        }
+//    };
+//    public static final CreativeModeTab BLOSSOM_EQ_TAB_LEGWRAPS = new CreativeModeTab("blossom_eq_tab_legwraps") {
+//        @Override
+//        public ItemStack makeIcon() {
+//            return new ItemStack(Blossomitems.CHERRY_BLOSSOM_3.get());
+//
+//
+//        }
+//    };
+     public static final CreativeModeTab BLOSSOM_EQ_TAB_HALTERS = new CreativeModeTab("blossom_eq_tab_halters") {
+       @Override
+      public ItemStack makeIcon() {
+        return new ItemStack(Blossomitems.HALTER_TAB.get());
+
+
+         }
+    };
+
+    public static final CreativeModeTab BLOSSOM_EQ_TAB_FLUFFY_HALTERS = new CreativeModeTab("blossom_eq_tab_fluffy_halters") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Blossomitems.CHERRY_BLOSSOM_4.get());
+            return new ItemStack(Blossomitems.HALTER_FLUFFY_TAB.get());
 
 
         }
     };
-    public static final CreativeModeTab BLOSSOM_EQ_TAB_LEGWRAPS = new CreativeModeTab("blossom_eq_tab_legwraps") {
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(Blossomitems.CHERRY_BLOSSOM_3.get());
 
-
-        }
-    };
 }

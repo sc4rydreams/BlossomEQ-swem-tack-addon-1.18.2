@@ -22,7 +22,12 @@ public class BlossomTackItems {
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_QUILTED_WHITE;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_QUILTED_BLACK;
     public static final RegistryObject<PastureBlanketItem> PASTURE_BLANKET_QUILTED_BROWN;
-
+    public static final RegistryObject<HalterItem> HALTER_BLOSSOM_BROWN;
+    public static final RegistryObject<HalterItem> HALTER_BLOSSOM_BLACK;
+    public static final RegistryObject<HalterItem> HALTER_BLOSSOM_WHITE;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_BROWN;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_BLACK;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_WHITE;
 
 
     // TACK FOR LOOPS - These are looping ones
@@ -39,7 +44,8 @@ public class BlossomTackItems {
     public static final List<RegistryObject<WesternBridleItem>> WESTERN_BRIDLE_BLOSSOM;
     public static final List<RegistryObject<EnglishBridleItem>> ENGLISH_BRIDLE_BLOSSOM;
     public static final List<RegistryObject<WesternBlanketItem>> SADDLE_PAD_NEON;
-
+    public static final List<RegistryObject<HalterItem>> HALTER_BLOSSOM_NEON;
+    public static final List<RegistryObject<HalterItem>> HALTER_FLUFFY_BLOSSOM_NEON;
 
     public BlossomTackItems(){
     }
@@ -69,7 +75,30 @@ public class BlossomTackItems {
                         "pasture_blanket_quilted_brown", new Item.Properties()
                         .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_PBLANKETS).stacksTo(16)));
 
+        HALTER_BLOSSOM_BROWN = ITEMS.register("halter_blossom_brown",
+                () -> new HalterItem( "halter_blossom_brown", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_HALTERS).stacksTo(16)));
 
+        HALTER_BLOSSOM_BLACK = ITEMS.register("halter_blossom_black",
+                () -> new HalterItem( "halter_blossom_black", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_HALTERS).stacksTo(16)));
+
+        HALTER_BLOSSOM_WHITE = ITEMS.register("halter_blossom_white",
+                () -> new HalterItem( "halter_blossom_white", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_HALTERS).stacksTo(16)));
+
+
+        HALTER_FLUFFY_BLOSSOM_BROWN = ITEMS.register("halter_fluffy_blossom_brown",
+                () -> new HalterItem( "halter_fluffy_blossom_brown", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16)));
+
+        HALTER_FLUFFY_BLOSSOM_BLACK = ITEMS.register("halter_fluffy_blossom_black",
+                () -> new HalterItem( "halter_fluffy_blossom_black", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16)));
+
+        HALTER_FLUFFY_BLOSSOM_WHITE = ITEMS.register("halter_fluffy_blossom_white",
+                () -> new HalterItem( "halter_fluffy_blossom_white", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16)));
 
 
 
@@ -89,6 +118,24 @@ public class BlossomTackItems {
             SADDLE_PAD_NEON.add(ITEMS.register("saddle_pad_neon_" + counter,
                     () -> new WesternBlanketItem("saddle_pad_neon_" + counter, (new Item.Properties())
                             .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_SADDLEPADS).stacksTo(16))
+            ));
+        }
+
+        HALTER_BLOSSOM_NEON = new ArrayList<>(); // 25 transport boots
+        for(int var1 = 0; var1 < 49; ++var1) {
+            int counter = var1 + 1;
+               HALTER_BLOSSOM_NEON.add(ITEMS.register("halter_blossom_" + counter,
+                    () -> new HalterItem("halter_blossom_" + counter, (new Item.Properties())
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_HALTERS).stacksTo(16))
+            ));
+        }
+
+        HALTER_FLUFFY_BLOSSOM_NEON = new ArrayList<>(); // 25 transport boots
+        for(int var1 = 0; var1 < 49; ++var1) {
+            int counter = var1 + 1;
+            HALTER_FLUFFY_BLOSSOM_NEON.add(ITEMS.register("halter_fluffy_blossom_" + counter,
+                    () -> new HalterItem("halter_fluffy_blossom_" + counter, (new Item.Properties())
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16))
             ));
         }
 

@@ -27,7 +27,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'eclipse'
 
 //Updated your version number to not be the Forge version number. Temp set it as a BETA and 0.0.3 - tre
-version = '0.0.6-1.18.2--BETA'
+version = '0.0.7-1.18.2--BETA'
 group = 'blossomeq' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'BlossomEQ'
 
