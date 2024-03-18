@@ -28,7 +28,8 @@ public class BlossomTackItems {
     public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_BROWN;
     public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_BLACK;
     public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_WHITE;
-
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLOSSOM_GRAY;
+    public static final RegistryObject<HalterItem> HALTER_BLOSSOM_GRAY;
 
     // TACK FOR LOOPS - These are looping ones
 
@@ -87,6 +88,11 @@ public class BlossomTackItems {
                 () -> new HalterItem( "halter_blossom_white", new Item.Properties()
                         .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_HALTERS).stacksTo(16)));
 
+        HALTER_BLOSSOM_GRAY = ITEMS.register("halter_blossom_gray",
+                () -> new HalterItem( "halter_blossom_gray", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16)));
+
+
 
         HALTER_FLUFFY_BLOSSOM_BROWN = ITEMS.register("halter_fluffy_blossom_brown",
                 () -> new HalterItem( "halter_fluffy_blossom_brown", new Item.Properties()
@@ -98,6 +104,10 @@ public class BlossomTackItems {
 
         HALTER_FLUFFY_BLOSSOM_WHITE = ITEMS.register("halter_fluffy_blossom_white",
                 () -> new HalterItem( "halter_fluffy_blossom_white", new Item.Properties()
+                        .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16)));
+
+        HALTER_FLUFFY_BLOSSOM_GRAY = ITEMS.register("halter_fluffy_blossom_gray",
+                () -> new HalterItem( "halter_fluffy_blossom_gray", new Item.Properties()
                         .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_FLUFFY_HALTERS).stacksTo(16)));
 
 
