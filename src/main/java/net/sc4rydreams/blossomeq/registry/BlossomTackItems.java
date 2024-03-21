@@ -3,11 +3,13 @@ package net.sc4rydreams.blossomeq.registry;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.alaharranhonor.swem.forge.blocks.HalfBarrelBlock;
 import com.alaharranhonor.swem.forge.blocks.SaddleRackBlock;
 import com.alaharranhonor.swem.forge.items.SWEMHorseArmorItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -47,6 +49,7 @@ public class BlossomTackItems {
     public static final List<RegistryObject<WesternBlanketItem>> SADDLE_PAD_NEON;
     public static final List<RegistryObject<HalterItem>> HALTER_BLOSSOM_NEON;
     public static final List<RegistryObject<HalterItem>> HALTER_FLUFFY_BLOSSOM_NEON;
+    public static final List<RegistryObject<WesternBreastCollarItem>> BREAST_COLLAR_BLOSSOM;
 
     public BlossomTackItems(){
     }
@@ -122,11 +125,20 @@ public class BlossomTackItems {
                             .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
-        SADDLE_PAD_NEON = new ArrayList<>(); // 25 transport boots
+        SADDLE_PAD_NEON = new ArrayList<>(); // SADDLE PADS
         for(int var1 = 0; var1 < 49; ++var1) {
             int counter = var1 + 1;
             SADDLE_PAD_NEON.add(ITEMS.register("saddle_pad_neon_" + counter,
                     () -> new WesternBlanketItem("saddle_pad_neon_" + counter, (new Item.Properties())
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_SADDLEPADS).stacksTo(16))
+            ));
+        }
+
+        BREAST_COLLAR_BLOSSOM = new ArrayList<>(); // SADDLE PADS
+        for(int var1 = 0; var1 < 7; ++var1) {
+            int counter = var1 + 1;
+            BREAST_COLLAR_BLOSSOM.add(ITEMS.register("breast_collar_blossom_" + counter,
+                    () -> new WesternBreastCollarItem("breast_collar_blossom_" + counter, (new Item.Properties())
                             .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_SADDLEPADS).stacksTo(16))
             ));
         }

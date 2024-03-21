@@ -27,14 +27,14 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //            ((ItemModelBuilder) this.withExistingParent("pasture_blanket_" + "quilted_brown", "item/generated"))
 //                   .texture("layer0", new ResourceLocation("blossomeq", "item/pasture_blanket/pasture_blanket_" + "quilted_brown" + "_icon"));
 
-               ((ItemModelBuilder) this.withExistingParent("halter_blossom_" + "brown", "item/generated"))
-                     .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_blossom_" + "brown"));
+//               ((ItemModelBuilder) this.withExistingParent("halter_blossom_" + "brown", "item/generated"))
+//                     .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_blossom_" + "brown"));
 
-        ((ItemModelBuilder) this.withExistingParent("halter_blossom_" + "black", "item/generated"))
-                .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_blossom_" + "black"));
-
-        ((ItemModelBuilder) this.withExistingParent("halter_blossom_" + "white", "item/generated"))
-                .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_blossom_" + "white"));
+//        ((ItemModelBuilder) this.withExistingParent("halter_blossom_" + "black", "item/generated"))
+//                .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_blossom_" + "black"));
+//
+//        ((ItemModelBuilder) this.withExistingParent("halter_blossom_" + "white", "item/generated"))
+//                .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_blossom_" + "white"));
 
 //
 //        ((ItemModelBuilder) this.withExistingParent("halter_fluffy_blossom_" + "brown", "item/generated"))
@@ -129,7 +129,11 @@ public class BlossomItemModelProvider extends ItemModelProvider {
 //            ((ItemModelBuilder) this.withExistingParent("halter_fluffy_blossom_" + var1, "item/generated"))
 //                    .texture("layer0", new ResourceLocation("blossomeq", "item/halters/halter_fluffy_blossom_" + var1));
 //        }
-
+        for (int var1 = 1; var1 < 8; ++var1) {
+            //int counter = var1 + 1;
+            ((ItemModelBuilder) this.withExistingParent("breast_collar_blossom_" + var1, "item/generated"))
+                    .texture("layer0", new ResourceLocation("blossomeq", "item/breast_collars/breast_collar_blossom_" + var1 + "_model.png"));
+        }
 
 
     }
