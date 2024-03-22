@@ -132,7 +132,7 @@ public class BlossomItemModelProvider extends ItemModelProvider {
         for (int var1 = 1; var1 < 8; ++var1) {
             //int counter = var1 + 1;
             ((ItemModelBuilder) this.withExistingParent("breast_collar_blossom_" + var1, "item/generated"))
-                    .texture("layer0", new ResourceLocation("blossomeq", "item/breast_collars/breast_collar_blossom_" + var1 + "_model.png"));
+                    .texture("layer0", new ResourceLocation("blossomeq", "item/breast_collars/breast_collar_blossom_" + var1));
         }
 
 

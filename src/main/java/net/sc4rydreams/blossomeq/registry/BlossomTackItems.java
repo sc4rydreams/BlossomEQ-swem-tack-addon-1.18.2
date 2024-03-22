@@ -139,7 +139,7 @@ public class BlossomTackItems {
             int counter = var1 + 1;
             BREAST_COLLAR_BLOSSOM.add(ITEMS.register("breast_collar_blossom_" + counter,
                     () -> new WesternBreastCollarItem("breast_collar_blossom_" + counter, (new Item.Properties())
-                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB_SADDLEPADS).stacksTo(16))
+                            .tab(BlossomCreativeModeTab.BLOSSOM_EQ_TAB).stacksTo(16))
             ));
         }
 
